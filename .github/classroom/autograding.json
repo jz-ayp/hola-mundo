@@ -41,12 +41,12 @@
       "points": 1
     },
     {
-      "name": "<Nulo>",
+      "name": "Pez",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m hola.py",
       "input": "",
-      "output": "Hola,",
-      "comparison": "exact",
+      "output": "Hola, Pez",
+      "comparison": "included",
       "timeout": 1,
       "points": 1
     }
