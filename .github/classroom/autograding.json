@@ -44,7 +44,7 @@
       "name": "Pez",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m hola.py",
-      "input": "",
+      "input": "Pez",
       "output": "Hola, Pez",
       "comparison": "included",
       "timeout": 1,
