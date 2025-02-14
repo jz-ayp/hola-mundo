@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Álvaro",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 hola.py",
+      "input": "Álvaro",
+      "output": "Hola, Álvaro",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "María",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 hola.py",
+      "input": "María",
+      "output": "Hola, María",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Ana Paola",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 hola.py",
+      "input": "Ana Paola",
+      "output": "Hola, Ana Paola",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Luis Enrique",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 hola.py",
+      "input": "Luis Enrique",
+      "output": "Hola, Luis Enrique",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "<Nulo>",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m hola.py",
+      "input": "",
+      "output": "Hola,",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
